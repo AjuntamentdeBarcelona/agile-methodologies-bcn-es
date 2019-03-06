@@ -1,0 +1,15 @@
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+= Introducción y contexto
+
+Este documento constituye un documento de apoyo al Código de prácticas tecnológicas del Ayuntamiento de Barcelona, explica de forma práctica el concepto de transformación Agile y expande los principios que guían la nueva dirección del Instituto Municipal de Informática (IMI) en materia de tecnología e innovación: interoperabilidad, agilidad, reutilización, ética y apertura de conocimientos y tecnología.
+Los principios y las prácticas se derivan del Plan de transformación digital Agile del Ayuntamiento, de septiembre de 2017.
+
+Pretende contribuir y guiar la implementación, por parte del IMI, junto con las gerencias y las unidades de la ciudad, de la intención estratégica del Ayuntamiento de Barcelona de desarrollar proyectos de servicios digitales siguiendo las metodologías _Agile_.
+Estas metodologías ágiles, junto con el principio de soberanía tecnológica y la gestión responsable de datos, componen los elementos principales de la visión a medio plazo para la transformación digital ágil en la ciudad de Barcelona.
+
+El objetivo de este documento, pues, es proporcionar a los responsables de los órganos municipales y del IMI una comprensión básica de los métodos ágiles y demostrar cómo el ciclo de vida ágil es diferente a las aproximaciones tradicionales; explicar cómo se define y cómo se implementará el marco ágil del IMI, integrado en el modelo de proyectos y mantenimiento de servicios digitales existentes; y proporcionar directrices para gestionar proyectos de desarrollo y mantenimiento de servicios basadas en métodos ágiles.
+De manera general, intenta contribuir a fomentar y gestionar el cambio cultural en el IMI y en las unidades de la ciudad de Barcelona bajo la perspectiva de transformación digital ágil.

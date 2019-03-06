@@ -1,0 +1,152 @@
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+= Principios generales de desarrollo _Agile_
+
+== Concepto y definiciones
+
+El desarrollo de _software_ ágil es una filosofía, y _ágil_ un término paraguas para una colección de métodos o aproximaciones que comparten características comunes.
+Existen diversas metodologías ágiles, de entre las cuales las principales son _scrum_ y _extreme programming_ (XP).
+
+Generalmente, son un conjunto de metodologías utilizadas en el ámbito del desarrollo y el mantenimiento de _software_, basadas en procesos iterativos y de duración corta (típicamente duran de dos a cuatro semanas), que dan como resultado la entrega inicial de un producto parcial, pero operativo, y de versiones consecutivas que incrementan cada las características del producto.
+A través de estas iteraciones continuadas, estas metodologías buscan aportar valor desde el inicio del proyecto, así como llevar a cabo una evolución continua del producto.
+Su objetivo es introducir mejoras y una evolución constante de los productos hasta alcanzar un resultado final excelente que dé respuesta a todos los requerimientos del usuario.
+
+Esta estrategia iterativa permite minimizar el riesgo, ya que cada iteración es como un proyecto en miniatura e incluye todas las fases necesarias: planificación, análisis de requisitos, diseño, codificación, pruebas de usuario y documentación.
+Así, los problemas en la ejecución, la adaptación a los requerimientos y los riesgos del proyecto afloran con anterioridad y las acciones correctoras son menos costosas y más inmediatas que en un proyecto tradicional de desarrollo (en el que acostumbran a aflorar en su fase final, tras meses de evolución).
+
+Asimismo, las metodologías ágiles se centran en la satisfacción del usuario, ya que requieren que éste participe activamente en el proyecto tanto durante su conceptualización como en su desarrollo (mediante la validación de las entregas parciales).
+De esta manera, se garantiza que el producto final responda a las necesidades del usuario y esté en línea con sus expectativas.
+
+Todo esto se basa en el denominado “Manifiesto por el Desarrollo Ágil de _Software_”, de 2001:
+
+.Manifiesto _ÁGIL_
+[TIP]
+*Estamos descubriendo formas mejores de desarrollar _software_ tanto por nuestra propia experiencia como ayudando a terceros.*
+*A través de este trabajo hemos aprendido a valorar:* +
+*Individuos e interacciones sobre procesos y herramientas.* +
+*Software funcionando sobre documentación extensiva.* +
+*Colaboración con el cliente sobre negociación contractual.* +
+*Respuesta al cambio sobre seguir un plan.* +
+*Esto es, aunque valoramos los elementos de la derecha, valoramos más los de la izquierda.* +
+_http://agilemanifesto.org/iso/ca/manifesto.html_
+
+El Manifiesto Agile plantea doce principios que deberían perseguir las metodologías ágiles:
+
+. Nuestra mayor prioridad es satisfacer al cliente mediante la entrega temprana y continua de software con valor.
+
+. Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo.
+Los procesos Ágiles aprovechan el cambio para proporcionar ventaja competitiva al cliente.
+
+. Entregamos _software_ funcional frecuentemente, entre dos semanas y dos meses, con preferencia al periodo de tiempo más corto posible.
+
+. Los responsables de negocio y los desarrolladores trabajamos juntos de forma cotidiana durante todo el proyecto.
+
+. Los proyectos se desarrollan en torno a individuos motivados.
+Hay que darles el entorno y el apoyo que necesitan, y confiarles la ejecución del trabajo.
+
+. El método más eficiente y efectivo de comunicar información al equipo de desarrollo y entre sus miembros es la conversación cara a cara
+
+. El _software_ funcionando es la medida principal de progreso.
+
+. Los procesos Ágiles promueven el desarrollo sostenible.
+Los promotores, desarrolladores y usuarios debemos ser capaces de mantener un ritmo constante de forma indefinida.
+
+. La atención continua a la excelencia técnica y al buen diseño mejora la Agilidad.
+
+. La simplicidad, o el arte de maximizar la cantidad de trabajo no realizado, es esencial.
+
+. Las mejores arquitecturas, requisitos y diseños emergen de equipos autoorganizados.
+
+. A intervalos regulares el equipo reflexiona sobre cómo ser más efectivo para a continuación ajustar y perfeccionar su comportamiento en consecuencia.
+
+_http://agilemanifesto.org/iso/es/principles.html_
+
+La clave del modelo Agile es que el proyecto global se divide en una serie de ciclos de desarrollo cortos (conocidos generalmente como “iteraciones” o, en la terminología _scrum_, como “_sprints_”) de dos a cuatro semanas aproximadamente cada una.
+Para cada una de las iteraciones, el equipo de desarrollo lleva a cabo esencialmente las mismas actividades del modelo de cascada (es decir, planificación, diseño, codificación, pruebas y despliegue), pero bajo prácticas de trabajo ágiles.
+
+El gráfico que se muestra a continuación representa un ejemplo del ciclo de vida de un proyecto, a partir del modelo ágil _scrum_, junto con los actores involucrados en cada una de las fases.
+A lo largo del documento se irán explicando con detalle los diversos conceptos introducidos en el gráfico.
+
+image::ScrumInfographic.svg[Scrum info-graphic, width=80%]
+
+Las actividades habituales del método ágil scrum son las siguientes:
+
+. Descubrimiento
+. _Backlog_
+. Iteraciones / _sprints_
+
+La actividad de *descubrimiento* define el pro-ducto mínimo viable (PMV) que hay que producir.
+Se basa en talleres de trabajo y entrevistas que producen una “*visión de producto*”, que es la definición básica del sistema que se quiere desarrollar.
+
+*El _product backlog_* (“pila de producto”) es una lista priorizada de todos de los elementos individuales estimados para llevar a cabo el proyecto global, es decir, los elementos distinguibles (programables) que componen la visión del producto.
+
+*Para cada _sprint_* (un ciclo de desarrollo de 2-4 semanas), el equipo de desarrollo prepara un _sprint backlog_.
+Este documento establece qué elementos de desarrollo del _product backlog_ se llevarán a cabo durante el sprint en curso (empezando con los elementos de prioridad más altos).
+En otras palabras, es una lista “_to-do_” (de cosas que hay que hacer) para el _sprint_ en curso.
+
+El equipo de desarrollo diseñará, programará y probará cada uno de los elementos de desarrollo listados en el _backlog_ del _sprint_, durante las 2-4 semanas que este dure.
+Cabe mencionar también que, típicamente, el equipo se reúne una vez al día para asegurarse de que todas las actividades del _sprint_ progresan adecuadamente según se han planificado.
+
+El resultado al final de cada sprint debería ser un _potentially shippable product increment_ (un elemento de _software_ que puede ser desplegado para el cliente o el usuario), en el que se puede observar un incremento de valor o funcionalidades con respecto a la iteración anterior.
+
+El conjunto formado por estas tres actividades mencionadas anteriormente define el *ciclo Agile*, que se repite hasta que se obtiene el resultado deseado por el cliente (o al final del presupuesto/tiempo atribuido al proyecto).
+
+== Beneficios
+
+Entre los beneficios que comporta trabajar con una metodología ágil, podemos destacar los siguientes:
+
+* *Interés en el valor y la satisfacción de cliente*, mediante la entrega rápida y continua de software útil.
+De esta manera, el cliente tiene una visión continua del producto y de su evolución hasta que obtiene el producto final.
+
+* *Interés en las personas usuarias.*
+Se pone más énfasis en las personas y las interacciones que en el proceso y las herramientas.
+Clientes, desarrolladores y _testers_ interaccionan constantemente entre sí para aportar visiones, valoraciones y mejoras del producto.
+
+* *Entregas con más antelación.*
+El _software_ creado se entrega frecuentemente (en semanas más que en meses) a través de los diversos _sprints_, lo que resulta en que haya un incremento evolutivo en cada uno de ellos con respecto al anterior.
+
+* *Costes y planificación previsibles.*
+El coste es previsible y limitado a la cantidad de trabajo que puede llevar a cabo el equipo, ya que durante las revisiones del _backlog_ se calculan los costes de desarrollo de los paquetes de trabajo que lo forman.
+
+* *Compromiso de los _stakeholders_ (grupos de interés).*
+El método ágil exige una cooperación próxima y diaria con las personas usuarias, tanto para obtener correctamente los requisitos del proyecto como para verificar el incremento de valor del producto en cada _sprint_.
+
+* *Transparencia.*
+El progreso en el proyecto es la consecuencia de todo el proceso en sí mismo, y eso hace que los diversos actores involucrados puedan verlo en todo momento.
+Además, la comunicación entre estos actores es más directa (“cara a cara”) y constante durante todo el proyecto.
+
+* *Mejora de la calidad.*
+El método ágil produce una atención continua a la excelencia técnica y al diseño de calidad.
+Utilizar herramientas específicas y técnicas, como la integración continua o el TDD (_test driven development o desarrollo dirigido por pruebas_), aporta una mejora continua de la calidad del producto.
+
+* *Flexibilidad ante los cambios.*
+El ciclo iterativo permite una adaptación regular a circunstancias cambiantes, como, por ejemplo, la identificación de posibles cambios o mejoras sobre el producto antes de finalizarlo.
+Este proceso también permite poder aceptar cambios en los requisitos tardíos.
+
+TIP: *“Se aumentó la productividad del desarrollo, se realzó la transparencia de las actividades de desarrollo y se redujo la porción relativa de trabajo administrativo (hasta el 25%).*
+*El incremento de la eficacia permite a la Administración desarrollar más servicios digitales con el presupuesto limitado”.*
+_Agencia finlandesa responsable de los permisos de conducir, citado en Nuottila et al. (2013), sobre un proyecto Agile en el Dpto. de Transporte._
+
+== Implicaciones y retos
+
+Sin entrar en el detalle de los impactos sobre las organizaciones de las metodologías ágiles y sus diferencias con metodologías tradicionales como la cascada, la implementación de las primeras implica un cambio importante en la gestión de proyectos, la participación del personal del cliente (la Administración pública) y la manera de contratar y entregar los servicios del proveedor y los resultados del proyecto.
+
+Con respecto a la organización de proyectos, se puede resaltar el hecho de que, con esta metodología, los resultados entregados no son necesariamente los finales o los predefinidos al inicio del proyecto, al contrario, el _software_ resultante del desarrollo soporta variaciones mediante un proceso iterativo, de acuerdo con las necesidades de las personas usuarias y su respuesta ante las versiones iniciales del producto.
+
+Para el cliente (persona usuaria), _Agile_ pone énfasis en la colaboración.
+A lo largo del ciclo de vida de entrega o iteración, ambas partes (cliente y proveedor) trabajan juntas en cada etapa para alcanzar los objetivos.
+El esfuerzo de la colaboración será mayor durante la fase de diseño, en la que las partes trabajan conjuntamente para determinar los requisitos funcionales y no funcionales (como la experiencia de usuario, UX) de la iteración o el resultado entregable.
+La contratación ágil requiere, por tanto, una dedicación (de gente y de tiempo) mucho más intensiva por parte del cliente en comparación con la contratación tradicional de cascadas.
+
+Respecte a la contractació, més enllà dels impactes esmentats, l'entitat no contracta una solució definitiva i definida (des del principi), sinó que contracta el desenvolupament d'aspectes d'una solució que evolucionen i s'incorporen de manera incremental, per assolir les necessitats identificades (user stories) i els objectius desenvolupant generals del client.
+Significa, habitualment, que la manera de contractar serveis tecnològics implementant una metodologia àgil es fa sobre la base de time and materials (contractació basada en el temps i els recursos que s'utilitzaran), i això pot tenir variacions segons les característiques del projecte.
+
+D'altra banda, els criteris de lliurament i d'acceptació de resultats han de ser més flexibles, ateses les variacions de planificació motivades per canvis d'especificacions funcionals i tècniques que resulten de la retroalimentació de les persones usuàries sobre cada iteració o cicle de desenvolupament.
+
+Per tant, hem de treballar en els reptes d'aquesta metodologia de desenvolupament si volem gaudir dels beneficis.
+El desenvolupament continu de les competències dels equips de client i proveïdor, la seva implicació en el projecte i la gestió d'aquest personal són elements clau d'aquesta metodologia.
+La definició de l'abast i la mida dels projectes i dels equips de desenvolupament són altres criteris que cal tenir en compte a l'hora d'aplicar-la aquesta metodologia.
+A les grans organitzacions amb sistemes d'informació complexos, en les quals majoritàriament s'opera amb metodologies tradicionals, un dels reptes més importants és integrar i combinar les noves practiques àgils en els entorns i els processos ja existents.

@@ -1,0 +1,22 @@
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+// Add here AsciiDoc list items with cross references to all the pages you want
+// to see listed in the navigation menu for this document. See
+// https://docs.antora.org/antora/navigation/list-structures/ for more details
+// on the syntax of this file.
+
+.$$MAIN
+* xref:introduction.adoc[Introducción y contexto]
+* xref:principles.adoc[Principios generales de desarrollo Agile]
+* xref:public-admin.adoc[Agile y Administración Pública]
+* xref:policy.adoc[Política Agile del Ayuntamiento de Barcelona]
+* xref:implementation.adoc[Implantación de la política Agile en proyectos y servicios TIC]
+* xref:references.adoc[Más información. Referencias]
+
+.$$BOTTOM
+* xref:{lang}/glossary:ROOT:glossary.adoc[Glosario]
+* xref:index.adoc[Autores y otras informaciones del documento]
+* link:{attachmentsdir}/barcelona_agile_methodologies_{revnumber}.{lang}.pdf[Descargar el PDF]
