@@ -1,9 +1,8 @@
+= Introducción y contexto
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 include::{partialsdir}/README.adoc[tag=metadata]
-
-= Introducción y contexto
 
 Este documento constituye un documento de apoyo al Código de prácticas tecnológicas del Ayuntamiento de Barcelona, explica de forma práctica el concepto de transformación Agile y expande los principios que guían la nueva dirección del Instituto Municipal de Informática (IMI) en materia de tecnología e innovación: interoperabilidad, agilidad, reutilización, ética y apertura de conocimientos y tecnología.
 Los principios y las prácticas se derivan del Plan de transformación digital Agile del Ayuntamiento, de septiembre de 2017.
