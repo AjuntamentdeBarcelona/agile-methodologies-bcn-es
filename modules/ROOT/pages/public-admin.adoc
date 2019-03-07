@@ -1,46 +1,45 @@
-= Agile i Administració pública
-
+= Agile y Administración pública
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 include::{partialsdir}/README.adoc[tag=metadata]
 
-== La pràctica _AGILE_ a l'Administració pública
+== La práctica Agile en la Administración pública
 
-L'adopció de mètodes àgils ha estat molt lenta en el sector públic, tenint en compte que el Manifest Agile és del 2001.
-No obstant això, hi ha diversos casos de desenvolupament de metodologies àgils que han estat documentats, com ara a Finlàndia (un projecte de desenvolupament de programari per gestionar els permisos de conducció) o, més a prop, a Andalusia, amb dos projectes del Ministeri de Cultura i Esports, _eBOJA_ i _TOPOS_.
-El primer va ser un projecte de desenvolupament de sistema per a l'ús del Diari Oficial regional i el segon, un projecte d'infraestructura per a la gestió dels sistemes del ministeri regional.
-Als Estats Units, la pàgina web _health-care.gov_ es va redissenyar utilitzant aquesta metodologia, i el Departament de Defensa ha reconegut la metodologia àgil i les seves Instruccions per a l'adquisició de sistemes (Instrucció 5000.2, de 2015) que la suporten.
-Al Regne Unit, la _Driver and Vehicle Standards Agency_, el servei estatal de conducció, ha implementat amb èxit un sistema de gestió d'ITV amb metodologies àgils i contractes de curt termini.
+La adopción de métodos ágiles ha sido muy lenta en el sector público, teniendo en cuenta que el Manifiesto Agile es del 2001.
+No obstante, hay varios casos de implementación de metodologías ágiles documentados, como en Finlandia (un proyecto de desarrollo de _software_ para gestionar los permisos de conducir) o, más cerca, en Andalucía, con dos proyectos del Ministerio de Cultura y Deportes, _eBOJA y TOPOS_.
+El primero fue un proyecto de desarrollo de sistema para el uso del diario oficial regional, y el segundo, un proyecto de infraestructura para la gestión de los sistemas del ministerio regional.
+En Estados Unidos, la página web healthcare. gov se rediseñó utilizando esta metodología, y el Departamento de Defensa ha reconocido la metodología ágil y sus instrucciones para la adquisición de sistemas (Instrucción 5000.2, de 2015) que la soportan.
+En el Reino Unido, la Driver and Vehicle Standards Agency, el servicio estatal de conducción, ha implementado con éxito un sistema de gestión de ITV con metodologías ágiles y contratos de corto plazo.
 
-Per la nostra banda, Catalunya també s'ha fet una prova pilot per aplicar l'_Scrum_ a un projecte de l'Institut Municipal d'Informàtica (IMI), per identificar les implicacions que tenia l'ús d'aquest “marc Agile” i, sobretot, quines són les mancances actuals, tant en coneixements com en infraestructura.
+Por nuestra parte, en Cataluña también se ha hecho una prueba piloto para aplicar el _scrum_ a un proyecto real del IMI, para identificar las implicaciones que tenía el uso de este “marco Agile” y, sobre todo, para saber cuáles son las carencias actuales, tanto en conocimientos como en infraestructura.
 
-Les conclusions d'aquests projectes indiquen que l'aplicació d'aquesta metodologia es va fer amb èxit, però no sense reptes, tant generals com particulars, per a les entitats públiques titulars dels projectes.
-L'enfocament va permetre als equips elaborar un pla inicial que podia guiar el projecte i també corregir-lo d'acord amb els resultats.
-També ofereix una visió rellevant i útil sobre l'estat del projecte en cada moment, tant per a l'equip com per als responsables de gestionar-lo i supervisar-lo.
-Es pot considerar un procés d'aprenentatge, en el qual els equips de persones usuàries i de desenvolupadors van millorant les seves habilitats.
-Addicionalment, la metodologia transforma l'esforç d'estimació i planificació en un procés continu i participatiu, que implica tot l'equip, en lloc de ser una fase inicial del projecte, pròpia d'altres metodologies tradicionals com la de “cascada”.
+Las conclusiones de estos proyectos indican que la implementación de esta metodología se hizo con éxito, pero no sin retos, tanto generales como particulares, para las entidades públicas titulares de los proyectos.
+El enfoque permitió a los equipos elaborar un plan de proyecto inicial que podía guiar el proyecto y también corregirlo de acuerdo con los resultados.
+También ofrece una visión relevante y útil sobre el estado del proyecto en cada momento, tanto para el equipo como para los responsables de gestionarlo y supervisarlo.
+Se puede considerar un proceso de aprendizaje, en el que los equipos de personas usuarias y de desarrolladores van mejorando sus habilidades.
+Adicionalmente, la metodología transforma el esfuerzo de estimación y planificación en un proceso continuo y participativo, que implica a todo el equipo, en lugar de ser una fase inicial del proyecto, propia de otras metodologías tradicionales como la de cascada.
 
-Diverses administracions estan en procés d'implementar aquestes metodologies, al Regne Unit (_https://www.gov.uk/service-manual/agile-delivery_), a Nova York (_http://playbook.cityofnewyork.us/_) i a San Francisco (_http://digitalservices.sfgov.org_), per exemple, en la _Human Services Agency_ o el departament de _Housing and Community Development_).
-Aquestes iniciatives enfoquen el lliurament de serveis digitals innovadors, més adaptats a les persones usuàries i a uns costos més reduïts, a base de metodologies àgils des de la seva concepció.
+De manera más general, diversas administraciones están en proceso de implementar estas metodologías, como el Reino Unido (_https:// www.gov.uk/service-manual/agile-delivery_), Nueva York (_http://playbook.cityofnewyork.us/_) y San Francisco (_http://digitalservices.sfgov.org_, por ejemplo, en la Human Services Agency o en el Departamento de Vivienda y desarrollo comunitario).
+Estas iniciativas basan la entrega de servicios digitales innovadores, más adaptados a las personas usuarias y a unos costes más reducidos, en metodologías ágiles desde su concepción.
 
-== Consideracions importants
+== Consideraciones importantes
 
-Tal com hem descrit en l'apartat anterior, Principis generals de desenvolupament Agile, els mètodes àgils tenen diverses conseqüències i plantegen reptes específics a la seva aplicació en el desenvolupament de serveis digitals per a l'Administració pública.
+Tal como hemos descrito en el apartado anterior, “Principios generales de desarrollo Agile”, los métodos ágiles tienen diversas consecuencias y plantean retos específicos a su implementación en el desarrollo de servicios digitales para la Administración pública.
 
-Pel que fa a l'organització de projectes, cal assegurar un consens entre tots els agents implicats sobre quin mètode s'ha d'utilitzar i la definició i l'atribució de funcions o rols, en particular entre el departament o unitat “client” (habitualment, el titular del projecte o _product owner_), l'entitat que gestiona el contracte (a l'Ajuntament de Barcelona, habitualment serà l'IMI) i el proveïdor, i sobre com dur a terme aquests rols.
-Aquesta selecció és més difícil depenent de la complexitat organitzativa de l'administració destinatària i de la integració dels nous serveis amb sistemes o plataformes existents i amb projectes ja en marxa.
-Les administracions tenen molts sistemes i serveis ja implementats, de manera que la coexistència amb els projectes tradicionals pot ser complicada.
+Con respecto a la organización de proyectos, se debe asegurar un consenso entre todos los agentes implicados en el proyecto sobre qué método se tiene que utilizar; sobre la definición y la atribución de funciones o roles, en particular entre el departamento o unidad “cliente” (habitualmente, el titular del proyecto o _product owner_), la entidad que gestiona el contrato (en el Ayuntamiento de Barcelona, habitualmente será el IMI) y el proveedor; y sobre cómo llevar a cabo estos roles.
+Esta selección de metodología y definición de roles es más difícil dependiendo de la complejidad organizativa de la administración destinataria y de la integración de los nuevos servicios con sistemas o plataformas existentes y con proyectos ya en marcha.
+Las administraciones tienen muchos sistemas y servicios ya implementados, de manera que la coexistencia con los proyectos tradicionales puede ser complicada.
 
-Serà important poder disposar d'equips de projecte estables, tant des de la banda del client / usuari com de l'equip desenvolupador.
-La solvència tècnica, en terminis de coneixement dels mètodes àgils i la gestió del coneixement, torna a ser un aspecte essencial per garantir l'èxit dels projectes a curt, mitjà i llarg termini.
-Així mateix, en la metodologia Scrum, els equips àgils s'han de coordinar amb els equips que treballen sobre projectes existents o transversals de l'Administració.
+Asimismo, será importante poder disponer de equipos de proyecto estables, tanto desde el lado del cliente/usuario, como del equipo desarrollador.
+La solvencia técnica, en plazos de conocimiento de los métodos ágiles y la gestión del conocimiento, vuelve a ser un aspecto esencial para garantizar el éxito de los proyectos a corto, medio y largo plazo.
+Asimismo, en la metodología _scrum_, los equipos ágiles deben coordinarse con los equipos que trabajan sobre proyectos existentes o transversales de la Administración.
 
-En tercer lloc, serà essencial garantir la dedicació dels equips “client / usuari” (personal de les unitats i entitats de l'Administració pública) durant l'evolució i el desenvolupament del projecte: no es tracta d'especificar unes funcionalitats i esperar-ne el lliurament.
-La metodologia àgil requereix fomentar una comunicació o una interacció més intensiva entre usuari i desenvolupador per poder assolir els objectius de les iteracions.
-Amb Agile, els departaments usuaris participen activament durant tot el procés i els desenvolupadors són més presents en la vida diària de les persones usuàries per crear la visió de producte, les històries d'usuari i recollir retroacció de manera iterativa.
+Además, será esencial garantizar la dedicación de los equipos “cliente/usuario” (personal de las unidades y entidades de la Administración pública) durante la evolución y el desarrollo del proyecto: no se trata de especificar unas funcionalidades y esperar su entrega.
+La metodología ágil requiere fomentar una comunicación o una interacción más intensiva entre usuario y desarrollador para poder alcanzar los objetivos de las iteraciones.
+Con Agile, los departamentos usuarios participan activamente durante todo el proceso y los desarrolladores están más presentes en la vida diaria de las personas usuarias para crear la visión de producto y las historias de usuario y recoger retroalimentación de manera iterativa.
 
-Un dels aspectes més rellevants per a una administració pública és el procés i les obligacions respecte a la contractació de serveis, que han de complir una normativa de contractació pública no necessàriament ben adaptada a aquestes metodologies.
-Tenint en compte les característiques de les metodologies àgils ja esmentades, cal buscar més flexibilitat a l'hora de contractar serveis tecnològics àgils (per exemple, dividint el projecte per lots o activitats, especificant la metodologia que cal utilitzar amb claredat i les tasques de cada part, i sent més flexible quant a especificacions definitives i el lliurament i l'acceptació de cada fase / activitat o iteració) i en el control de l'execució del contracte un cop adjudicat.
+Uno de los aspectos más relevantes para una Administración pública es el proceso y las obligaciones con respecto a la contratación de servicios, que deben cumplir una normativa de contratación pública no necesariamente bien adaptada a estas metodologías.
+Teniendo en cuenta las características de las metodologías ágiles ya mencionadas, hay que buscar más flexibilidad cuando se contratan servicios tecnológicos ágiles (por ejemplo, dividiendo el proyecto por lotes o actividades, especificando la metodología que hay que utilizar con claridad y las tareas de cada parte, y siendo más flexible en cuanto a las especificaciones definitivas y la entrega y la aceptación de cada fase/actividad o iteración) y en el control de la ejecución del contrato una vez adjudicado.
 
-És important reconèixer la necessitat de treballar bé el canvi cultural de les administracions públiques com a part de la transformació àgil, ja que aquest canvi sol ser més lent i difícil que al sector privat.
+En conclusión, es importante reconocer la necesidad de trabajar bien el cambio cultural de las administraciones públicas como aparte de la transformación ágil, ya que este cambio suele ser más lento y difícil que en el sector privado.

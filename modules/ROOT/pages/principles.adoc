@@ -1,9 +1,8 @@
+= Principios generales de desarrollo _Agile_
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
 include::{partialsdir}/README.adoc[tag=metadata]
-
-= Principios generales de desarrollo _Agile_
 
 == Concepto y definiciones
 
@@ -78,7 +77,7 @@ Las actividades habituales del método ágil scrum son las siguientes:
 . _Backlog_
 . Iteraciones / _sprints_
 
-La actividad de *descubrimiento* define el pro-ducto mínimo viable (PMV) que hay que producir.
+La actividad de *descubrimiento* define el producto mínimo viable (PMV) que hay que producir.
 Se basa en talleres de trabajo y entrevistas que producen una “*visión de producto*”, que es la definición básica del sistema que se quiere desarrollar.
 
 *El _product backlog_* (“pila de producto”) es una lista priorizada de todos de los elementos individuales estimados para llevar a cabo el proyecto global, es decir, los elementos distinguibles (programables) que componen la visión del producto.
@@ -141,12 +140,12 @@ A lo largo del ciclo de vida de entrega o iteración, ambas partes (cliente y pr
 El esfuerzo de la colaboración será mayor durante la fase de diseño, en la que las partes trabajan conjuntamente para determinar los requisitos funcionales y no funcionales (como la experiencia de usuario, UX) de la iteración o el resultado entregable.
 La contratación ágil requiere, por tanto, una dedicación (de gente y de tiempo) mucho más intensiva por parte del cliente en comparación con la contratación tradicional de cascadas.
 
-Respecte a la contractació, més enllà dels impactes esmentats, l'entitat no contracta una solució definitiva i definida (des del principi), sinó que contracta el desenvolupament d'aspectes d'una solució que evolucionen i s'incorporen de manera incremental, per assolir les necessitats identificades (user stories) i els objectius desenvolupant generals del client.
-Significa, habitualment, que la manera de contractar serveis tecnològics implementant una metodologia àgil es fa sobre la base de time and materials (contractació basada en el temps i els recursos que s'utilitzaran), i això pot tenir variacions segons les característiques del projecte.
+Con respecto a la contratación, más allá de los impactos mencionados, la entidad no contrata una solución definitiva y definida (desde el principio), sino que contrata el desarrollo de aspectos de una solución que evolucionan y se incorporan de manera incremental, para alcanzar las necesidades identificadas (_historias de usuario_) y los objetivos generales del cliente.
+Habitualmente, significa que la manera de contratar servicios tecnológicos implementando una metodología ágil se hace basándose en _time and materials_ (contratación basada en el tiempo y los recursos que se utilizarán), y eso puede sufrir variaciones según las características del proyecto.
 
-D'altra banda, els criteris de lliurament i d'acceptació de resultats han de ser més flexibles, ateses les variacions de planificació motivades per canvis d'especificacions funcionals i tècniques que resulten de la retroalimentació de les persones usuàries sobre cada iteració o cicle de desenvolupament.
+Además, los criterios de entrega y aceptación de resultados tienen que ser más flexibles, dadas las variaciones de planificación motivadas por cambios de especificaciones funcionales y técnicas que resultan de la retroalimentación de las personas usuarias sobre cada iteración o ciclo de desarrollo.
 
-Per tant, hem de treballar en els reptes d'aquesta metodologia de desenvolupament si volem gaudir dels beneficis.
-El desenvolupament continu de les competències dels equips de client i proveïdor, la seva implicació en el projecte i la gestió d'aquest personal són elements clau d'aquesta metodologia.
-La definició de l'abast i la mida dels projectes i dels equips de desenvolupament són altres criteris que cal tenir en compte a l'hora d'aplicar-la aquesta metodologia.
-A les grans organitzacions amb sistemes d'informació complexos, en les quals majoritàriament s'opera amb metodologies tradicionals, un dels reptes més importants és integrar i combinar les noves practiques àgils en els entorns i els processos ja existents.
+Por tanto, debemos trabajar en los retos de esta metodología de desarrollo si queremos disfrutar de sus beneficios.
+El desarrollo continuo de las competencias de los equipos de cliente y proveedor, su implicación en el proyecto y la gestión de este personal son elementos clave de esta metodología.
+La definición del alcance y el tamaño de los proyectos y los equipos de desarrollo son otros criterios que hay que tener en cuenta al aplicar esta metodología.
+En grandes organizaciones con sistemas de información complejos, en las que mayoritariamente se opera con metodologías tradicionales, uno de los retos más importantes es integrar y combinar las nuevas prácticas ágiles en los entornos y los procesos ya existentes.
