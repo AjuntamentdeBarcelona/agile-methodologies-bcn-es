@@ -27,7 +27,7 @@
 :_title: Metodologías Agile en el Ayuntamiento de Barcelona
 //
 // OPTIONAL. Subtitle of the document.
-:_subtitle:
+:_subtitle: Programa de digitalización abierta del Comisionado de Tecnología e Innovación Digital del Ayuntamiento de Barcelona.
 //
 // MANDATORY. Semi-colon-separated list of names.
 :authors: Francesca Bria, Paco Rodríguez, Malcolm Bain, Joan Batlle, Ana Bastida Vila, Xabier Barandiaran Fernández, Marius Boada Pla, Guillem Marpons, Xavier Roca Vilalta, Xavier Bes Segovia, Josep Carles Collazos, Joan Domènech Bas, Oscar Sanz García, Carlos Echevarría Meseguer, LLuis Girona Frisach, Anna Majó Crespo, Tomás Gea Calza, Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider
