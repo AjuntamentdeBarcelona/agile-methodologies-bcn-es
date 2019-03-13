@@ -38,12 +38,10 @@ Los objetivos más relevantes con respecto a las metodologías ágiles son los s
 ** Sistematizar la mejora continua basada en ciclos cortos de inspección y adaptación.
 ** Dotar la organización de agentes activos de la mejora sistémica y de los equipos.
 
-////
-L'aplicació d'aquests principis i directrius es farà a través de la realització dels projectes de transformació digital àgil de l'Ajuntament, gestionats principalment per l'IMI.
-Aquests projectes permetran la dedicació de recursos, la creació d'infraestructura i l'adquisició de competències per a portar a terme aquestes transformacions.
-D'aquesta manera, la gestió del canvi que suposa l'aplicació d'aquestes pràctiques dins de l'Ajuntament es farà de manera iterativa a través de projectes concrets.
-Alguns projectes i les seves ampliacions (per exemple, Decidim.Barcelona) ja compleixen en bona mesura les directrius indicades aquí, uns altres ho aniran aconseguint amb un procés d'implementació més progressiu.
-////
+La aplicación de estos principios y directrices se harán a través de la realización de los proyectos de transformación digital ágil del Ayuntamiento, gestionados principalmente por el IMI.
+Estos proyectos permitirán la dedicación de recursos, la creación de infraestructura y la adquisición de competencias para llevar a cabo  estas transformaciones.
+De esta manera, la gestión del cambio que supone la aplicación de estas prácticas dentro del Ayuntamiento se hará de manera iterativa a través de proyectos concretos.
+Algunos proyectos y sus ampliaciones (por ejemplo, Decidim.Barcelona) ya cumplen en buena medida las directrices indicadas aquí, otros lo irán consiguiendo con un proceso de implementación más progresivo.
 
 == Principios generales y directivos de la política Agile del Ayuntamiento de Barcelona
 
