@@ -21,6 +21,10 @@ En este caso, puede ser conveniente contratar proyectos tradicionales en paralel
 Los proyectos determinados como ágiles seguirán la metodología de desarrollo ágil de aplicaciones del IMI, denominada Scrum@IMI.
 Está basada en el marco de trabajo _Scrum_ y tiene en cuenta prácticas de ingeniería provenientes de otros modelos, como DevOps.
 
+Desde 2017 el IMI ha estado trabajando en la mejora y la evolución del marco de trabajo Scrum@IMI, que ha recibido las adaptaciones derivadas del aprendizaje y la mejora continua surgida de la experiencia en la ejecución de una gran variedad de proyectos. La última versión pública de Scrum@IMI se encuentra en el repositorio de documentación de la web del IMI, de manera que cualquier interesado o proveedor que quiera participar en un proceso de licitación de proyectos basados en esta metodología pueda tener el contexto al respecto del impacto y de los requisitos normaticos que afectan a este tipo de proyectos.
+
+Puedes descargar la última versión publicada de Scrum@IMI siguiendo este enlace: https://ajuntament.barcelona.cat/imi/sites/default/files/marc_de_treball_scrumimi_per_proveidors.pdf[Marc de treball Scrum@IMI per proveidors]
+
 Esta metodología se soportará bajo el uso de una plataforma ALM (_application lifecycle management_) con herramientas que incluirán, entre otros, los siguientes aspectos:
 
 * Planificación del desarrollo (releases, sprints, paquetes de trabajo, defectos, etcétera).
